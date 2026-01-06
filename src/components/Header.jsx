@@ -9,7 +9,11 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-blue-600">JustWravel</h1>
+        {/* <h1 className="text-xl font-bold text-blue-600">JustWravel</h1> */}
+<h1 className="text-xl font-bold">
+  <span className="text-blue-600">Just</span>
+  <span className="text-green-600">Wravel</span>
+</h1>
 
         <div className="flex gap-4">
           <Link
